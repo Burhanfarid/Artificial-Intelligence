@@ -1,0 +1,56 @@
+Task 1: Tabular Data (Adult Income)
+Objective: Predict whether income exceeds $50K/year.
+
+Steps:
+•	Preprocess (missing values, encoding, scaling, etc).
+•	Perform Exploratory Data Analysis 
+•	Train classic models: Logistic Regression, Decision Tree, Random Forest, Gradient Boosting.
+•	Evaluate using Accuracy, Precision, Recall, F1, ROC-AUC. Use plots whenever possible.
+•	Identify best performer model.
+•	Design, train and evaluate a neural network model for predicting income. 
+•	Compare best performer classic model with ANN model. 
+•	Perform feature importance analysis (Permutation or SHAP).
+•	Apply unsupervised clustering (K-Means or GMM) and compare results.
+•	Visualize results (ROC curves, feature importances, PCA/t-SNE).
+•	Write ≤300-word summary of findings.
+
+Task 2:  Image Data (PlantVillage Crop Disease Classification)
+Objective: Build and compare classical and deep learning CNN models to classify crop leaf images by plant species and disease type.
+
+Steps:
+•	Preprocessing: Preprocess images (resize, normalize RGB values, apply augmentation etc)
+•	Classical ML baseline: Extract simple colour–texture features (e.g., colour histograms, HOG, or Gabor filters) and train models such as SVM, Random Forest, and k-NN on these feature vectors.
+•	Evaluate and compare Classical ML models using standard performance metrices. 
+•	Deep Learning: Build from scratch or fine-tune a pretrained CNN (custom CNN, ResNet50, EfficientNet, or MobileNet). Then, evaluate accuracy, precision, recall, and F1 score and visualize learning curves and confusion matrices.
+•	Compare Classical ML with Deep Learning models. 
+•	Explainability: Use Grad-CAM or any other technique to highlight leaf regions influencing model predictions. Discuss the interpretability and reliability of your CNN results.
+•	Summary (≤ 300 words): Briefly explain which model performed best and why, key visual cues learned, and observed limitations (e.g., lighting or background effects).
+
+Task 3:  Sound Data (UrbanSound8K)
+Objective: Identify urban sound types.
+
+Steps:
+•	Extract features (MFCCs, chroma, spectral contrast).
+•	Train ML models (SVM, Random Forest, XGBoost).
+•	Train a CNN on spectrograms.
+•	Compare models using F1-score and accuracy.
+•	Use SHAP or LIME (or any other appropriate technique) to interpret model outputs.
+•	Apply K-Means clustering on MFCCs and compare results. 
+•	Visualize spectrograms, confusion matrix, feature importances.
+•	Write ≤300-word summary of findings.
+
+Task 4: Text Data (Fake vs Real News)
+Objective: Detect fake news articles using textual features.
+
+Steps:
+•	Preprocess text (e.g. cleaning, tokenization, cleaning, TF-IDF).
+•	Train ML models (Logistic Regression, Naïve Bayes, SVM).
+•	Fine-tune a Transformer (e.g., DistilBERT).
+•	Evaluate Precision, Recall, F1, ROC-AUC.
+•	Compare ML model and Deep model. 
+•	Apply explainability (word importance, attention visualisation).
+•	Use K-Means or LDA for unsupervised topic modelling and compare.
+•	Visualize key words and model performance.
+•	Write ≤300-word summary of findings.
+
+
